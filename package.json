@@ -2,6 +2,7 @@
   "name": "my-nextjs-recaptcha",
   "version": "0.1.0",
   "private": true,
+ 
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,6 +10,7 @@
   },
   "dependencies": {
     "axios": "^1.11.0",
+    "mongoose": "^8.18.1",
     "next": "15.5.2",
     "react": "19.1.0",
     "react-dom": "19.1.0",
