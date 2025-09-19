@@ -50,7 +50,7 @@ const seed = async () => {
 
             return buffer.toString("base64");
           } catch (err) {
-            console.error(`❌ Error processing ${imgPath}:`, err);
+            console.error(`Error processing ${imgPath}:`, err);
             return null;
           }
         })
